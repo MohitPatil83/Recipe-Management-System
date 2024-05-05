@@ -1,0 +1,11 @@
+{% include 'header.html' %}
+{% block 'main' %}
+{% if title %}
+<title>{{title}}</title>
+{% else %}
+<title>Recipe App</title>
+{% endif %}
+
+{% endblock 'main' %}
+
+{% include 'footer.html' %}
